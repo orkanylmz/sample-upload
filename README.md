@@ -1,6 +1,6 @@
 ## Sample Upload
 
-Sample mobile appp representing a basic authentication and file upload flow using a Supabase backend.
+Sample mobile app representing a basic authentication and file upload flow using a Supabase backend.
 
 ```sh
 bun install
