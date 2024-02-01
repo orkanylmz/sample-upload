@@ -3,7 +3,7 @@ import { FilesListItem } from "@/features/files/files-list/files-list-item";
 import { useFiles } from "@/features/files/use-files";
 import { useRefreshByUser } from "@/hooks";
 import { FlashList, ListRenderItemInfo } from "@shopify/flash-list";
-import { useRef, useState } from "react";
+
 import {
     Text,
     View,

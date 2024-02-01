@@ -1,21 +1,11 @@
-import { File, createSignedUrl } from "@/api";
-import { supabase } from "@/lib/supabase";
-import { memo, useEffect, useRef, useState } from "react";
-import {
-    View,
-    StyleSheet,
-    useWindowDimensions,
-    Text,
-    Dimensions,
-} from "react-native";
+import { File } from "@/api";
+
+import { View, StyleSheet, Text, Dimensions } from "react-native";
 import { Image } from "expo-image";
 import { getFileType } from "@/features/files/helpers";
 interface FilesListItemProps {
     file: File;
 }
-
-const blurhash =
-    "|rF?hV%2WCj[ayj[a|j[az_NaeWBj@ayfRayfQfQM{M|azj[azf6fQfQfQIpWXofj[ayj[j[fQayWCoeoeaya}j[ayfQa{oLj?j[WVj[ayayj[fQoff7azayj[ayj[j[ayofayayayj[fQj[ayayj[ayfjj[j[ayjuayj[";
 
 export const FilesListItem = ({ file }: FilesListItemProps) => {
     const width = Dimensions.get("window").width;

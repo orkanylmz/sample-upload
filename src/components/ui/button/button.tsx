@@ -1,6 +1,5 @@
 import { ReactNode } from "react";
 import {
-    Pressable,
     Text,
     StyleSheet,
     TouchableOpacity,

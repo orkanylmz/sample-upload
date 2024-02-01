@@ -1,7 +1,7 @@
 import { UploadObject, useFileProgress, useUploadState } from "@/context";
 import { useCallback } from "react";
 import { View, StyleSheet, ScrollView, Text } from "react-native";
-import { MotiView, MotiText, AnimatePresence } from "moti";
+import { MotiView, AnimatePresence } from "moti";
 import { Image } from "expo-image";
 import { getFileType } from "@/features/files/helpers";
 

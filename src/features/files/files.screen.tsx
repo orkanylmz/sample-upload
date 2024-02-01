@@ -1,14 +1,9 @@
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
-import { Text, View, StyleSheet, TouchableOpacity } from "react-native";
+import { View, StyleSheet } from "react-native";
 import { RootStackParamList } from "../../navigation";
-import { useAuth } from "@/features/auth";
-import {
-    SafeAreaView,
-    useSafeAreaInsets,
-} from "react-native-safe-area-context";
-import { useMutation } from "@tanstack/react-query";
-import { signout } from "@/api";
-import { useFiles } from "@/features/files/use-files";
+
+import { useSafeAreaInsets } from "react-native-safe-area-context";
+
 import { FilesList } from "@/features/files/files-list/files-list";
 import { FAB } from "@/features/files/fab-button";
 import { ActionSheet } from "@/features/files/components";

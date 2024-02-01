@@ -1,11 +1,10 @@
 import { forwardRef } from "react";
-import React, { useCallback, useMemo, useRef } from "react";
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import React, { useMemo } from "react";
+import { View, StyleSheet } from "react-native";
 import {
     BottomSheetBackdrop,
     BottomSheetBackdropProps,
     BottomSheetModal,
-    BottomSheetModalProvider,
 } from "@gorhom/bottom-sheet";
 import {
     Extrapolation,

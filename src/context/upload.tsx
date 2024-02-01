@@ -2,7 +2,7 @@ import { AsyncActionHandlers, useReducerAsync } from "use-reducer-async";
 import { createContainer } from "react-tracked";
 import { Reducer } from "react";
 import * as tus from "tus-js-client";
-import { manipulateAsync, FlipType, SaveFormat } from "expo-image-manipulator";
+import { manipulateAsync } from "expo-image-manipulator";
 import { supabase } from "@/lib/supabase";
 
 import { getFile } from "@/api";
